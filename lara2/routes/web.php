@@ -18,5 +18,7 @@ Route::get('/', function () {
 });
 Route::get('/configprof', function () {return view('configprof');});
 Route::get('/configsalle', function () {return view('configsalle');});
+Route::get('/ajprof', function () {return view('ajprof');});
+Route::get('/configgroup', function () {return view('configgroup');});
     
 

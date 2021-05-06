@@ -291,74 +291,7 @@
         </form>
          <!--end  tab-->
           
-          <!--start show-from(add-form)-->
-        <section class="show-form div-group" id="add-form1">
 
-            <form method="POSTt" class="div" id="div-matier">
-                <input type="button" value="X" class="btn" onclick="hide('add-form1')" id="btn-close">
-                <p id="p1">new group</p>
-                <p id="p2">project work involves a group of students investigating</p>
-                <p id="p3">groupe :<input type="text" placeholder="groupe" id="i1" required></p>
-                <p id="p4">capacite :<input type="text" placeholder="capacite" id="i1" required></p>
-                <p id="p5">matier :
-                    <select name="srearch" id="csearch">
-                        <option value="1">nom</option>
-                        <option value="1">prenom</option>
-                        <option value="1">email</option>
-                    </select>
-                </p>
-                <p id="p5">niveau :
-                    <select name="srearch" id="csearch">
-                        <option value="1">nom</option>
-                        <option value="1">prenom</option>
-                        <option value="1">email</option>
-                    </select>
-                </p>
-                <p id="p5">option :
-                    <select name="srearch" id="csearch">
-                        <option value="1">nom</option>
-                        <option value="1">prenom</option>
-                        <option value="1">email</option>
-                    </select>
-                </p>
-                <button class="btn" id="bt">add</button>
-            </form>
-        </section>
-         <!--end show-from(add-form)-->
-          <!--start show-from(update-form)-->
-
-        <section class="show-form div-group" id="add-form2">
-
-            <form method="POSTt" class="div">
-                <input type="button" value="X" class="btn" onclick="hide('add-form2')" id="btn-close">
-                <p id="p1">update group</p>
-                <p id="p2">project work involves a group of students investigating</p>
-                <p id="p3">groupe :<input type="text" placeholder="groupe" id="i1" required></p>
-                <p id="p4">capacite :<input type="text" placeholder="capacite" id="i1" required></p>
-                <p id="p5">niveau :
-                    <select name="srearch" id="csearch">
-                        <option value="1">nom</option>
-                        <option value="1">prenom</option>
-                        <option value="1">email</option>
-                    </select>
-                </p>
-                <p id="p5">niveau :
-                    <select name="srearch" id="csearch">
-                        <option value="1">nom</option>
-                        <option value="1">prenom</option>
-                        <option value="1">email</option>
-                    </select>
-                </p>
-                <p id="p5">option :
-                    <select name="srearch" id="csearch">
-                        <option value="1">nom</option>
-                        <option value="1">prenom</option>
-                        <option value="1">email</option>
-                    </select>
-                </p>
-                <button class="btn" id="bt">save</button>
-            </form>
-        </section>
         <form class="sct4" id="formgroup">
             <div class="div">
                 <input type="button" value="X" class="btn" onclick="hide('formgroup')" id="btn-close">

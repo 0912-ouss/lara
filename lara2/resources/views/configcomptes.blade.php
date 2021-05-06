@@ -293,53 +293,7 @@
          <!--end  tab-->
           
           <!--start show-from(add-form)-->
-        <section class="show-form div-prof" id="add-form1">
 
-            <form method="POSTt" class="div" id="div-matier">
-                <input type="button" value="X" class="btn" onclick="hide('add-form1')" id="btn-close">
-                <p id="p1">new coptes</p>
-                <p id="p2">project work involves a group of students investigating</p>
-                <p id="p3">mom prenom :<input type="text" placeholder="Option" id="i1" required></p>
-                <p id="p4">email :<input type="text" placeholder="email" id="i1" required></p>
-                <p id="p6">psw:<input type="text" placeholder="psw" id="i1" required></p>
-                <p id="p6">tel:<input type="text" placeholder="tel" id="i1" required></p>
-                <p id="p7">adresse :<input type="text" placeholder="adresse" id="i1" required></p>
-                <p id="p5">type :
-                    <select name="srearch" id="csearch">
-                        <option value="1">nom</option>
-                        <option value="1">prenom</option>
-                        <option value="1">email</option>
-                    </select>
-                </p>
-                
-                <button class="btn" id="bt">add</button>
-            </form>
-        </section>
-         <!--end show-from(add-form)-->
-          <!--start show-from(update-form)-->
-
-        <section class="show-form div-prof" id="add-form2">
-
-            <form method="POSTt" class="div" id="div-matier">
-                <input type="button" value="X" class="btn" onclick="hide('add-form2')" id="btn-close">
-                <p id="p1">apdate comptes</p>
-                <p id="p2">project work involves a group of students investigating</p>
-                <p id="p3">mom prenom :<input type="text" placeholder="Option" id="i1" required></p>
-                <p id="p4">email :<input type="text" placeholder="email" id="i1" required></p>
-                <p id="p6">psw:<input type="text" placeholder="tel" id="i1" required></p>
-                <p id="p6">tel:<input type="text" placeholder="psw" id="i1" required></p>
-                <p id="p7">adresse :<input type="text" placeholder="adresse" id="i1" required></p>
-                <p id="p5">type :
-                    <select name="srearch" id="csearch">
-                        <option value="1">nom</option>
-                        <option value="1">prenom</option>
-                        <option value="1">email</option>
-                    </select>
-                </p>
-                
-                <button class="btn" id="bt">save</button>
-            </form>
-        </section>
         <!--end show-from(update-form)-->
     </main>
 

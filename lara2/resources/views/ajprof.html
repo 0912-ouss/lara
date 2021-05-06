@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/composant.css?v=0.3">
+    <!--<link rel="stylesheet" href="css/composant.css?v=0.3">-->
+    <link rel="stylesheet" href="../../public/css/composant.css">
     <link rel="stylesheet" href="css/all.css">
 
     <title>Documendsacct</title>
@@ -112,7 +113,7 @@
             <!--start  header navigation sub-menu -->
             <div class="li-show" id="li-config">
                 <ul>
-                    <li onclick="redirect(x)"><i class="fad fa-angle-right"></i><a href="#">option</a></li>
+                    <li><i class="fad fa-angle-right"></i><a href="#">option</a></li>
                     <li><i class="fad fa-angle-right"></i><a href="#">matier</a></li>
                     <li><i class="fad fa-angle-right"></i><a href="#">niveau</a></li>
                     <li><i class="fad fa-angle-right"></i><a href="#">group</a></li>
@@ -196,100 +197,61 @@
             <!--start main top-->
             <div class="mail-title">
                 <div class="text">
-                    <p>config-seance</p>
-                    <span>config / config-seance</span>
+                    <p>ajouter-prof</p>
+                    <span>config / ajouter-prof</span>
                 </div>
                 <input type="button" value="add new one" class="btn" onclick="show('add-form1')">
             </div>
             <!--end main-top-->
             <!--start main tab-->
-            <div class="tab">
+            <div class="tab ajouter-prof">
                 <!--start main tab top-->
                 <div class="tab-title">
                     <div class="tab-title-top">
-                        <p>all orders</p>
+                        <p>new prof</p>
                     </div>
-                    <div class="tab-title-bottom">
-                        <div class="nbr">
-                            <p>show</p>
-                            <select name="nbr" id="cnbr">
-                               
-                               <option value="1">5</option>
-                               <option value="1">10</option>
-                               <option value="1">20</option>
-                           </select>
+                     <div class="ajform">
+               
+                        <div class="remplir">
+                            <span>nom et prenom</span>
+                            <input type="text">
                         </div>
-                        <div class="search">
-                            <input type="text" placeholder="Search">
-                            <button class="btn"><i class="far fa-search"></i></button>
-                            <p>search by</p>
-                            <select name="srearch" id="csearch">
-                            <option value="1">nom</option>
-                           </select>
+                        <div class="remplir">
+                            <span>email</span>
+                            <input type="text">
+                        </div>
+                        <div class="remplir">
+                            <span>tel</span>
+                            <input type="text">
+                        </div>
+                        <div class="remplir">
+                            <span>adresse</span>
+                            <input type="text">
+                        </div>
+                        <div class="remplir">
+                            <span>adresse</span>
+                            
+                            <select name="" id="">
+                                <option value="">2 bac sm fr</option>
+                                <option value="">2 bac sm fr</option>
+                                <option value="">2 bac sm fr</option>
+                                <option value="">2 bac sm fr</option>
+                                <option value="">2 bac sm fr</option>
+                            </select>
+                        </div>
 
-                        </div>
+                        
+                        <button class="btn" id="bt">add</button>
                     </div>
-                </div>
-                <!--end main tab top-->
-                <!--start  main tab list-->
-                <ul>
-                    <!--start  list  titre (row 1)-->
-                    <li>
-                        <p>id</p>
-                        <p id="nom">nom</p>
-                        <p id="email">date</p>
-                        <p >salle</p>
-                        <p id="adresse">prof</p>
-                        <p>group</p>
-                        <p>action</p>
-                    </li>
-                     <!--end  list  titre (row 1)-->
-                      <!--start  list rows-->
-                    <li>
-                        <p>#00001</p>
-                        <p id="nom">s1g1</p>
-                        <p id="email">28/03/2210</p>
-                        <p >salle 1</p>
-                        <p id="adresse"> oussama berhayla</p>
-                        <p>math 2 bac</p>
-                        <ul id="action">
-                            <li  class="btn" onclick="show('add-form2')"><i class="fal fa-pencil-alt"></i></li>
-                            <li ><button><i class="fal fa-trash-alt"></i></button></li>
-                        </ul>
-
-                    </li>
-                    <li>
-                        <p>#00001</p>
-                        <p id="nom">s1g1</p>
-                        <p id="email">28/03/2210</p>
-                        <p >salle 1</p>
-                        <p id="adresse"> oussama berhayla</p>
-                        <p>math 2 bac</p>
-                        <ul id="action">
-                            <li  class="btn" onclick="show('add-form2')"><i class="fal fa-pencil-alt"></i></li>
-                            <li ><button><i class="fal fa-trash-alt"></i></button></li>
-                        </ul>
-
-                    </li>
+                </div>    
                     
-                   
-                    <!--end  list rows-->
-                </ul>
-                <div id="pagination">
-                    <ul>
-                        <li><button class="btn">prev</button></li>
-                        <li><button class="btn" id="btn-active">1</button></li>
-                        <li><button class="btn">2</button></li>
-                        <li><button class="btn">3</button></li>
-                        <li><button class="btn">next</button></li>
-                    </ul>
-
-                </div>
             </div>
         </form>
          <!--end  tab-->
           
-
+          <!--start show-from(add-form)-->
+       
+        <!--end show-from(update-form)-->
     </main>
 
 <!--end  main-->
@@ -299,7 +261,7 @@
     </footer>
 
 <!--end footer-->
-<script src="js/composant.js"></script>
+    <script src="js/composant.js"></script>
 </body>
 
 </html>

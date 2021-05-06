@@ -280,44 +280,7 @@
         </form>
          <!--end  tab-->
           
-          <!--start show-from(add-form)-->
-        <section class="show-form div-niveau" id="add-form1">
 
-            <form method="POSTt" class="div" id="div-matier">
-                <input type="button" value="X" class="btn" onclick="hide('add-form1')" id="btn-close">
-                <p id="p1">new niveau</p>
-                <p id="p2">project work involves a group of students investigating</p>
-                <p id="p3">niveau :<input type="text" placeholder="Nivaeu" id="i1" required></p>
-                <p id="p5">option :
-                    <select name="srearch" id="csearch">
-                        <option value="1">nom</option>
-                        <option value="1">prenom</option>
-                        <option value="1">email</option>
-                    </select>
-                </p>
-                <button class="btn" id="bt">add</button>
-            </form>
-        </section>
-         <!--end show-from(add-form)-->
-          <!--start show-from(update-form)-->
-
-        <section class="show-form div-niveau" id="add-form2">
-
-            <form method="POSTt" class="div">
-                <input type="button" value="X" class="btn" onclick="hide('add-form2')" id="btn-close">
-                <p id="p1">update niveau</p>
-                <p id="p2">project work involves a group of students investigating</p>
-                <p id="p3"> niveau:<input type="text" placeholder="Niveau" id="i1" required></p>
-                <p id="p5">option :
-                    <select name="srearch" id="csearch">
-                        <option value="1">nom</option>
-                        <option value="1">prenom</option>
-                        <option value="1">email</option>
-                    </select>
-                </p>
-                <button class="btn" id="bt">save</button>
-            </form>
-        </section>
         <!--end show-from(update-form)-->
     </main>
 

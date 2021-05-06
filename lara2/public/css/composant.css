@@ -611,6 +611,10 @@ main {
     align-items: center;
     position: relative;
 }
+.ajouter-prof {
+   height: 600px;
+   padding-top: 20px;
+}
 
 .tab .tab-title {
     width: 90%;
@@ -1057,7 +1061,48 @@ footer p span {
 
 
 /*---------------------------------------*/
+.ajform{
+    margin-top: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  
+}
+.ajform .remplir{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 10px;
 
+}
+.remplir span{font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+    color: #1d212f;
+    margin-bottom: 9px;
+    text-transform: capitalize;}
+.remplir input{
+    height:40px ; 
+    border-radius: 5px;
+
+padding-left: 10px;
+border: 1px solid #EAEDF7;
+outline: none;}
+.remplir select{
+    height: 40px;
+    border-radius: 5px;
+    
+padding: 3px 10px;
+border: 1px solid #EAEDF7;
+outline: none;
+text-transform: uppercase;
+
+
+}
+.ajform button{margin-top: 10px; margin-left: 10px; }
+/*
 main .show-form {
     overflow: hidden;
     padding-bottom: 20px;
@@ -1229,3 +1274,4 @@ main .show-form  input[type=date]  i{
 #btn-close i {
     color: #EAEDF7;
 }
+*/

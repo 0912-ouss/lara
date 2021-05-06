@@ -294,32 +294,6 @@
         </form>
         <!--end  tab-->
 
-        <!--start show-from(add-form)-->
-        <section class="show-form" id="add-form1">
-
-            <form method="POSTt" class="div">
-                <input type="button" value="X" class="btn" onclick="hide('add-form1')" id="btn-close">
-                <p id="p1">new prof</p>
-                <p id="p2">project work involves a group of students investigating</p>
-                <p id="p3">option :<input type="text" placeholder="Option" id="i1" required></p>
-                <p id="p4">description :<textarea name="" placeholder="Description" id="dsc" cols="5" rows="2" required></textarea></p>
-                <button class="btn" id="bt">add</button>
-            </form>
-        </section>
-        <!--end show-from(add-form)-->
-        <!--start show-from(update-form)-->
-
-        <section class="show-form" id="add-form2">
-
-            <form method="POSTt" class="div">
-                <input type="button" value="X" class="btn" onclick="hide('add-form2')" id="btn-close">
-                <p id="p1">update prof</p>
-                <p id="p2">project work involves a group of students investigating</p>
-                <p id="p3">option :<input type="text" placeholder="Option" id="i1" required></p>
-                <p id="p4">description :<textarea name="" placeholder="Description" id="dsc" cols="5" rows="2" required></textarea></p>
-                <button class="btn" id="bt">save</button>
-            </form>
-        </section>
         <!--end show-from(update-form)-->
     </main>
 

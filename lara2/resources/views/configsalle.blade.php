@@ -286,35 +286,7 @@
         </form>
          <!--end  tab-->
           
-          <!--start show-from(add-form)-->
-        <section class="show-form div-salle" id="add-form1">
 
-            <form method="POSTt" class="div" id="div-matier">
-                <input type="button" value="X" class="btn" onclick="hide('add-form1')" id="btn-close">
-                <p id="p1">new salle</p>
-                <p id="p2">project work involves a group of students investigating</p>
-                <p id="p3">nom :<input type="text" placeholder="nom" id="i1" required></p>
-                <p id="p4">capacite :<input type="text" placeholder="capacite" id="i1" required></p>
-                <p id="p6">desc:<input type="text" placeholder="desc" id="i1" required></p>
-                
-                <button class="btn" id="bt">add</button>
-            </form>
-        </section>
-         <!--end show-from(add-form)-->
-          <!--start show-from(update-form)-->
-
-        <section class="show-form div-salle" id="add-form2">
-
-            <form method="POSTt" class="div">
-                <input type="button" value="X" class="btn" onclick="hide('add-form2')" id="btn-close">
-                <p id="p1">update matier</p>
-                <p id="p2">project work involves a group of students investigating</p>
-                <p id="p3">nom :<input type="text" placeholder="nom" id="i1" required></p>
-                <p id="p4">capacite :<input type="text" placeholder="capacite" id="i1" required></p>
-                <p id="p6">desc:<input type="text" placeholder="desc" id="i1" required></p>
-                <button class="btn" id="bt">save</button>
-            </form>
-        </section>
         <!--end show-from(update-form)-->
     </main>
 
