@@ -315,7 +315,7 @@
     </footer>
 
 <!--end footer-->
-    <script src="composant.js"></script>
+<script src="js/composant.js"></script>
 </body>
 
 </html>

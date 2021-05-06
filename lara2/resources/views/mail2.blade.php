@@ -317,8 +317,8 @@
     </footer>
 
     <!--end footer-->
-    <script src="composant.js"></script>
-    <script src="mail.js"></script>
+    <script src="js/composant.js"></script>
+    <script src="js/mail.js"></script>
 </body>
 
 </html>

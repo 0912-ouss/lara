@@ -17,5 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/configprof', function () {return view('configprof');});
+Route::get('/configsalle', function () {return view('configsalle');});
     
 
