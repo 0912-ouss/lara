@@ -611,9 +611,21 @@ main {
     align-items: center;
     position: relative;
 }
-.ajouter-prof {
+.ajouter-niveau{
+    height: 320px;
+    padding-top: 20px;
+}
+.ajouter-matier{
+    height: 420px;
+   padding-top: 20px; 
+}
+.ajouter-prof,.ajouter-group {
    height: 600px;
    padding-top: 20px;
+}
+.ajouter-compte{
+    height: 700px;
+    padding-top: 20px;
 }
 
 .tab .tab-title {
