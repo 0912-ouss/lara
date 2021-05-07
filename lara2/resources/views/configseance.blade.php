@@ -112,7 +112,8 @@
             <!--start  header navigation sub-menu -->
             <div class="li-show" id="li-config">
                 <ul>
-                    <li onclick="redirect(x)"><i class="fad fa-angle-right"></i><a href="#">option</a></li>
+                    <li><i class="fad fa-angle-right"></i><a href="#">compte</a></li>
+                    <li ><i class="fad fa-angle-right"></i><a href="#">option</a></li>
                     <li><i class="fad fa-angle-right"></i><a href="#">matier</a></li>
                     <li><i class="fad fa-angle-right"></i><a href="#">niveau</a></li>
                     <li><i class="fad fa-angle-right"></i><a href="#">group</a></li>

@@ -21,5 +21,6 @@ Route::get('/configsalle', function () {return view('configsalle');});
 Route::get('/ajprof', function () {return view('ajprof');});
 Route::get('/configgroup', function () {return view('configgroup');});
 Route::get('/ajprof', function () {return view('ajprof');});
+Route::get('/mail', function () {return view('mail');});
     
 

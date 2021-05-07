@@ -611,15 +611,15 @@ main {
     align-items: center;
     position: relative;
 }
-.ajouter-niveau{
+.ajouter-niveau,.ajouter-option{
     height: 320px;
     padding-top: 20px;
 }
-.ajouter-matier{
+.ajouter-matier,.ajouter-salle{
     height: 420px;
    padding-top: 20px; 
 }
-.ajouter-prof,.ajouter-group {
+.ajouter-prof,.ajouter-group,.ajouter-seance {
    height: 600px;
    padding-top: 20px;
 }
