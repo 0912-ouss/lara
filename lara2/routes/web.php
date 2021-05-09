@@ -27,7 +27,8 @@ Route::get('/ajoption', function () {return view('ajoption');});
 Route::get("/mesoptions",[coption::class,'index']);
 Route::get("/ajouteroption",[coption::class,'add']);
 Route::get("/removeoption/{id}",[coption::class,'remove']);
-Route::get("/upoption/{id}",[coption::class,'show']);
-Route::get("/editotion",[coption::class,'remove']);
-    
+//Route::get("/optionup/{id}",[coption::class,'show']);
+Route::get("/editotion",[coption::class,'save']);
+Route::get('/optionedit', function () {return view('optionedit');});
+Route::get("/optionup/{id}",[coption::class,'ouss']);
 

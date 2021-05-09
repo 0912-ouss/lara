@@ -617,7 +617,7 @@ main {
 }
 .ajouter-matier,.ajouter-salle{
     height: 420px;
-   padding-top: 20px; 
+   padding-top: 21px; 
 }
 .ajouter-prof,.ajouter-group,.ajouter-seance {
    height: 600px;

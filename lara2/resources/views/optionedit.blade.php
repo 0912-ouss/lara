@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--<link rel="stylesheet" href="css/composant.css?v=0.3">-->
-    
+    <link rel="stylesheet" href="css/composant.css">
     <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/composant.css?v=0.3">
+    <link href="{{ asset('../../public/css/composant.css.css') }}" rel="stylesheet" />
 
     <title>edit option</title>
 </head>
@@ -195,12 +195,12 @@
     <!--start main-->
     <main onclick="hideall()">
 
-        <form class="mail" method="POdST">
+        <div class="mail" >
             <!--start main top-->
             <div class="mail-title">
                 <div class="text">
-                    <p>modifer-option</p>
-                    <span>config / modifier-option</span>
+                    <p>ajouter-option</p>
+                    <span>config / ajouter-option</span>
                 </div>
                 <input type="button" value="add new one" class="btn" onclick="show('add-form1')">
             </div>
@@ -210,27 +210,29 @@
                 <!--start main tab top-->
                 <div class="tab-title">
                     <div class="tab-title-top">
-                        <p>modifier option</p>
+                        <p>nouvelle option</p>
                     </div>
-                     <div class="ajform">
+                   
+                @endphp
+                     <form class="ajform" method="get" action="{{url('ajouteroption')}}">
                
                         <div class="remplir">
                             <span>nom de option</span>
-                            <input type="text">
+                            <input type="text" name="nom" value="">
                         </div>
                         <div class="remplir">
                             <span>description</span>
-                            <input type="text">
+                            <input type="text" name="desc">
                         </div>
                        
                         
                         
-                        <button class="btn" id="bt">add</button>
-                    </div>
+                        <button class="btn" id="bt" name="save">add</button>
+                    </form>
                 </div>    
                     
             </div>
-        </form>
+        </div>
          <!--end  tab-->
           
           <!--start show-from(add-form)-->

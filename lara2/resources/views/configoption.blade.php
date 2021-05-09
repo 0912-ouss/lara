@@ -252,7 +252,7 @@
                         <p id="nom">{{ $r["nomOp"] }}</p>
                         <p id="email">{{ $r["description"] }}</p>
                         <ul id="action">
-                            <li  class="btn"><a href="upoption/{{  $r["idOp"] }}"><i class="fal fa-pencil-alt"></i></a></li>
+                            <li  class="btn"><a href="optionup/{{  $r["idOp"] }}"><i class="fal fa-pencil-alt"></i></a></li>
                             <li ><a href="removeoption/{{ $r["idOp"]  }}"><i class="fal fa-trash-alt"></i></a></li>
                         </ul>
 
