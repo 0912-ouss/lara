@@ -200,7 +200,8 @@
                     <p>config-option</p>
                     <span>config / config-option</span>
                 </div>
-                <input type="button" value="add new one" class="btn" onclick="show('add-form1')">
+               
+                <a class="btn" href="ajoption"> ajouter option</a>
             </div>
             <!--end main-top-->
             <!--start main tab-->
@@ -243,25 +244,21 @@
                     </li>
                      <!--end  list  titre (row 1)-->
                       <!--start  list rows-->
+                      @foreach ($dt as $r)
+                          
+                      
                     <li>
-                        <p>#00001</p>
-                        <p id="nom">oussama berhayla</p>
-                        <p id="email">walidax15@hotmail.com</p>
+                        <p>{{ $r["idOp"] }}</p>
+                        <p id="nom">{{ $r["nomOp"] }}</p>
+                        <p id="email">{{ $r["description"] }}</p>
                         <ul id="action">
-                            <li  class="btn" onclick="show('add-form2')"><i class="fal fa-pencil-alt"></i></li>
-                            <li ><button><i class="fal fa-trash-alt"></i></button></li>
+                            <li  class="btn"><a href="upoption/{{  $r["idOp"] }}"><i class="fal fa-pencil-alt"></i></a></li>
+                            <li ><a href="removeoption/{{ $r["idOp"]  }}"><i class="fal fa-trash-alt"></i></a></li>
                         </ul>
 
                     </li>
-                    <li>
-                        <p>#00001</p>
-                        <p id="nom">oussama berhayla</p>
-                        <p id="email">walidax15@hotmail.com</p>
-                        <ul id="action">
-                            <li class="btn" onclick="show('add-form2')"><i class="fal fa-pencil-alt"></i></li>
-                            <li ><button><i class="fal fa-trash-alt"></i></button></li>
-                        </ul>
-                    </li>
+                    @endforeach
+                    
                     
                    
                     <!--end  list rows-->
