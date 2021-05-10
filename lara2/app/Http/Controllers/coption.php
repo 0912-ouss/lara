@@ -16,12 +16,7 @@ class coption extends Controller
          //return $dt;
         return view("configoption",["dt"=>$dt]);
     }
-    function ouss($id){
-        $dt = moption::where("idOp",$id)->first();
-        //return "ousaam";
-        // return $dt;
-        return view("optionedit",["dt"=>$dt]);
-    }
+    
     function remove($pk){
         $o = moption::where("idOp",$pk);//i select the firste element
         if($o)//si trouvé
@@ -47,9 +42,10 @@ class coption extends Controller
      function show($id){
         //$o = moption::where("idOp",$id)->first();
         //return redirect("optionedit",["o"=>$o]);
-       return view("optionedit");
+       //return view("optionedit");
       
        //return $o;
+       return"oussama";
     }
      function save(Request $r ){
        // $o = moption::where("idOp", $r->id)->first();
