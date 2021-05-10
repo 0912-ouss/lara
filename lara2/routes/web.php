@@ -30,5 +30,5 @@ Route::get("/removeoption/{id}",[coption::class,'remove']);
 //Route::get("/optionup/{id}",[coption::class,'show']);
 Route::get("/editotion",[coption::class,'save']);
 Route::get('/optionedit', function () {return view('optionedit');});
-Route::get("/optionup/{id}",[coption::class,'ouss']);
+Route::get("/optionup/{id}",[coption::class,'show']);
 
