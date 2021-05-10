@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/composant.css?v=0.3">
     <link rel="stylesheet" href="css/all.css">
+    
 
     <title>Document</title>
 </head>
@@ -264,10 +265,18 @@
                     <!--end  list rows-->
                 </ul>
                 <div id="pagination">
+                    <ul>
+                        <li><button class="btn">prev</button> </li>
+                        <li><button class="btn" id="btn-active">1</button></li>
+                        <li><button class="btn">2</button></li>
+                        <li><button class="btn">3</button></li>
+                        <li><button class="btn">next</button></li>
+                    </ul>
                     
-                    <span style="color: #000000">{{  $dt->links() }}</span>
+                    
 
                 </div>
+                <p>{{ $dt->links() }} oussama</p>
             </div>
         </form>
          <!--end  tab-->
