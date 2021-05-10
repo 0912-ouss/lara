@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--<link rel="stylesheet" href="css/composant.css?v=0.3">-->
-    <link rel="stylesheet" href="css/composant.css">
+    <link rel="stylesheet" href="../../public/css/composant.css">
     <link rel="stylesheet" href="css/all.css">
-    <link href="{{ asset('../../public/css/composant.css.css') }}" rel="stylesheet" />
+    
 
     <title>edit option</title>
 </head>
@@ -213,7 +213,7 @@
                         <p>nouvelle option</p>
                     </div>
                    
-                @endphp
+                
                      <form class="ajform" method="get" action="{{url('ajouteroption')}}">
                
                         <div class="remplir">
