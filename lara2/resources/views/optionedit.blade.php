@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/composant.css?v=0.5">
     <link rel="stylesheet" href="../../public/css/composant.css">
     <link rel="stylesheet" href="css/all.css">
+    <link href="{{ asset('css/composant.css') }}" rel="stylesheet" type="text/css" >
+
     
 
     <title>edit option</title>
@@ -199,8 +201,8 @@
             <!--start main top-->
             <div class="mail-title">
                 <div class="text">
-                    <p>ajouter-option</p>
-                    <span>config / ajouter-option</span>
+                    <p>edit-option</p>
+                    <span>config / edit-option</span>
                 </div>
                 <input type="button" value="add new one" class="btn" onclick="show('add-form1')">
             </div>
@@ -210,24 +212,30 @@
                 <!--start main tab top-->
                 <div class="tab-title">
                     <div class="tab-title-top">
-                        <p>nouvelle option</p>
+                        <p>edit option</p>
                     </div>
-                   
+                    @php
+                    $id=(isset($o))? $o->idOp:"";
+                    $nom=(isset($o))? $o->nomOp:"";
+                    $desc=(isset($o))? $o->description:"";
+                    
+                @endphp
                 
-                     <form class="ajform" method="get" action="{{url('ajouteroption')}}">
-               
+                     <form class="ajform" method="get" action="{{url('editotion')}}">
+                        
                         <div class="remplir">
                             <span>nom de option</span>
-                            <input type="text" name="nom" value="">
+                            <input style="display: none" type="text" name="id" value="{{ $id }}">
+                            <input type="text" name="nom" value="{{ $nom }}">
                         </div>
                         <div class="remplir">
                             <span>description</span>
-                            <input type="text" name="desc">
+                            <input type="text" name="desc" value="{{ $desc }}">
                         </div>
                        
                         
                         
-                        <button class="btn" id="bt" name="save">add</button>
+                        <button class="btn" id="bt" name="save">save</button>
                     </form>
                 </div>    
                     

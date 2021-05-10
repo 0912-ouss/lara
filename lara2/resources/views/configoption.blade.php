@@ -264,13 +264,8 @@
                     <!--end  list rows-->
                 </ul>
                 <div id="pagination">
-                    <ul>
-                        <li><button class="btn">prev</button></li>
-                        <li><button class="btn" id="btn-active">1</button></li>
-                        <li><button class="btn">2</button></li>
-                        <li><button class="btn">3</button></li>
-                        <li><button class="btn">next</button></li>
-                    </ul>
+                    
+                    <span style="color: #000000">{{  $dt->links() }}</span>
 
                 </div>
             </div>

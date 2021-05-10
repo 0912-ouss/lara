@@ -11,9 +11,10 @@ class coption extends Controller
 {
     //
     function index(){
-        $dt = moption::all();
+       // $dt = moption::all();
         //return "ousaam";
          //return $dt;
+         $dt=moption::paginate(5);
         return view("configoption",["dt"=>$dt]);
     }
     
@@ -39,23 +40,19 @@ class coption extends Controller
          return redirect("mesoptions");
         //return"oussama";
      }
-     function show($id){
-        //$o = moption::where("idOp",$id)->first();
-        //return redirect("optionedit",["o"=>$o]);
-       return view("optionedit");
-      
-       //return $o;
-       //return"oussama";
+     function show($codeApp){
+        $o = moption::where("idOp",$codeApp)->first();
+        return view("optionedit",["o"=>$o]);
     }
      function save(Request $r ){
-       // $o = moption::where("idOp", $r->id)->first();
-             /*   $o->idOp = $r->id;
+        $o = moption::where("idOp", $r->id)->first();
+                $o->idOp = $r->id;
                 $o->nomOp = $r->nom;
                 $o->description=$r->desc;
                 $o->save();
-                return redirect("mesoptions");*/
-              //  return $o;
-              return"oussama";
+                return redirect("mesoptions");
+               // return $o;
+              //return"oussama";
                
      }
 }
