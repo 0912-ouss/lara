@@ -42,10 +42,10 @@ class coption extends Controller
      function show($id){
         //$o = moption::where("idOp",$id)->first();
         //return redirect("optionedit",["o"=>$o]);
-       //return view("optionedit");
+       return view("optionedit");
       
        //return $o;
-       return"oussama";
+       //return"oussama";
     }
      function save(Request $r ){
        // $o = moption::where("idOp", $r->id)->first();
