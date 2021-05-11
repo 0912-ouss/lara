@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+//use Illuminate\Http\Request;
 use App\Models\moption;
+use Symfony\Component\HttpFoundation\Request;
+
 
 
 class coption extends Controller
