@@ -217,7 +217,7 @@
                     <div class="tab-title-bottom">
                         <div class="nbr">
                             <p>show</p>
-                            <select name="nbr" id="cnbr" onchange="paginate()">
+                            <select name="nbr" id="cnbr" >
                                
                                <option value="5" id="5" > 5</option>
                                <option value="10" id="10">10</option>
@@ -227,7 +227,7 @@
                         <form class="search">
                             <input type="text" name="searchoption">
                             <button class="btn"><i class="far fa-search"></i></button>
-                            <a href="searchoption">ssssssssssssss</a>
+                            <a href="searchoption/{5}">ssssssssssssss</a>
                             <p>search by</p>
                             <select name="srearch" id="csearch">
                             <option value="1">nom</option>

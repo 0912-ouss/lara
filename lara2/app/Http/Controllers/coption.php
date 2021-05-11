@@ -62,9 +62,10 @@ class coption extends Controller
                //return"oussama";
                 
       }
-      function search(Request $r ){
+      function search(Request $r ,$id){
         // $dt = moption::all();
-         return $r;
+        // return $r;
+         return $id;
         //return $dt;
          // $dt=moption::paginate(2)->where("nomOp","LIKE",$r->search);
         // return view("configoption",["dt"=>$dt]);

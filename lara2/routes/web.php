@@ -16,7 +16,9 @@ Route::get('/mail', function () {return view('mail');});
 Route::get('/ajoption', function () {return view('ajoption');});
 Route::get("/mesoptions",[coption::class,'index']);
 Route::get("/mesoptions/{id}",[coption::class,'paginate']);
-Route::get("/searchoption",[coption::class,'search']);
+
+
+Route::get("/searchoption/{id}",[coption::class,'search']);
 Route::get("/ajouteroption",[coption::class,'add']);
 Route::get("/removeoption/{id}",[coption::class,'remove']);
 //Route::get("/optionup/{id}",[coption::class,'show']);
