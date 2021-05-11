@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class moption extends Model
 {
     use HasFactory;
-    
+
     public $table="option";
     public $primaryKey ="idOp";
     public $incrementing=true;

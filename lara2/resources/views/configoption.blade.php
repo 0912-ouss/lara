@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/composant.css?v=0.3">
+    <link rel="stylesheet" href="css/composant.css?v=0.5">
+    <link rel="stylesheet" href="../../public/css/composant.css">
     <link rel="stylesheet" href="css/all.css">
+    <link href="{{ asset('css/composant.css') }}" rel="stylesheet" type="text/css" >
     
 
     <title>Document</title>
@@ -194,7 +196,7 @@
     <!--start main-->
     <main onclick="hideall()">
 
-        <form class="mail" method="POdST">
+        <div class="mail" >
             <!--start main top-->
             <div class="mail-title">
                 <div class="text">
@@ -215,22 +217,23 @@
                     <div class="tab-title-bottom">
                         <div class="nbr">
                             <p>show</p>
-                            <select name="nbr" id="cnbr">
+                            <select name="nbr" id="cnbr" onchange="paginate()">
                                
-                               <option value="1">5</option>
-                               <option value="1">10</option>
-                               <option value="1">20</option>
+                               <option value="5" id="5" > 5</option>
+                               <option value="10" id="10">10</option>
+                               <option value="20" id="20">20</option>
                            </select>
                         </div>
-                        <div class="search">
-                            <input type="text" placeholder="Search">
+                        <form class="search">
+                            <input type="text" name="searchoption">
                             <button class="btn"><i class="far fa-search"></i></button>
+                            <a href="searchoption">ssssssssssssss</a>
                             <p>search by</p>
                             <select name="srearch" id="csearch">
                             <option value="1">nom</option>
                            </select>
 
-                        </div>
+                        </form>
                     </div>
                 </div>
                 <!--end main tab top-->
@@ -265,20 +268,12 @@
                     <!--end  list rows-->
                 </ul>
                 <div id="pagination">
-                    <ul>
-                        <li><button class="btn">prev</button> </li>
-                        <li><button class="btn" id="btn-active">1</button></li>
-                        <li><button class="btn">2</button></li>
-                        <li><button class="btn">3</button></li>
-                        <li><button class="btn">next</button></li>
-                    </ul>
                     
+                     <span> {{ $dt->links() }}  </span>
                     
-
                 </div>
-                <p>{{ $dt->links() }} oussama</p>
             </div>
-        </form>
+        </div>
          <!--end  tab-->
           
 

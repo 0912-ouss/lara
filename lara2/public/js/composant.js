@@ -117,3 +117,21 @@ function show(x) {
 function redirect() {
     window.location.href = "http://www.w3schools.com";
 }
+
+function paginate()
+{
+    var hidetag = document.getElementById("cnbr");
+    var nb=hidetag.value;
+    //alert(nb);
+    window.location.href = "mesoptions/"+nb;
+}
+
+
+
+
+
+
+
+
+
+

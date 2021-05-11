@@ -256,6 +256,7 @@
 
 <!--end footer-->
     <script src="js/composant.js"></script>
+
 </body>
 
 </html>
